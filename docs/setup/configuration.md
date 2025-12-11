@@ -79,14 +79,14 @@ Ollama client configuration
 
 ### ollama.baseUrl
 
-The base URL for the Ollama API. If using a cloud model, this should be set to `https://ollama.com/`. Defaults to the Ollama API's default listening location. For more info, see [the hosting guide](Hosting#choosing-a-hosting-strategy)
+The base URL for the Ollama API. If using a cloud model, this should be set to `https://ollama.com/`. Defaults to the Ollama API's default listening location. For more info, see [the hosting guide](hosting.md#choosing-a-hosting-strategy)
 
 - **Type:** `string`
 - **Default:** `http://localhost:11434/`
 
 ### ollama.apiKey
 
-Your key for the Ollama cloud API. This only needs to be set if you are using an Ollama cloud model. For more info, see [the hosting guide](hosting#choosing-a-hosting-strategy)
+Your key for the Ollama cloud API. This only needs to be set if you are using an Ollama cloud model. For more info, see [the hosting guide](hosting.md#choosing-a-hosting-strategy)
 
 - **Type:** `string`
 - **Default:** `(blank)`

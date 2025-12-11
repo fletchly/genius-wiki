@@ -42,4 +42,4 @@ Check your server console for a message confirming the plugin has loaded success
 
 ### 6. Configure hosting
 
-Once genius has been installed successfully, make sure to [choose a hosting strategy](hosting#choosing-a-hosting-strategy).
+Once genius has been installed successfully, make sure to [choose a hosting strategy](hosting.md#choosing-a-hosting-strategy).
