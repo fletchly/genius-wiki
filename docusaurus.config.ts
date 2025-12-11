@@ -107,7 +107,7 @@ const config: Config = {
             },
             {
               label: "Setup",
-              to: "/docs/setup",
+              to: "/docs/category/setup",
             },
           ],
         },
@@ -138,6 +138,10 @@ const config: Config = {
             {
               label: "GitHub",
               href: "https://github.com/fletchly/genius",
+            },
+            {
+              label: "Buy Me A Coffee",
+              href: "https://buymeacoffee.com/fletchly",
             },
           ],
         },

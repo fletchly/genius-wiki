@@ -4,7 +4,7 @@ sidebar_postition: 2
 
 # Configuration
 
-Genius configuration reference
+Configure the Genius plugin
 
 <details>
 
@@ -86,7 +86,7 @@ The base URL for the Ollama API. If using a cloud model, this should be set to `
 
 ### ollama.apiKey
 
-Your key for the Ollama cloud API. This only needs to be set if you are using an Ollama cloud model. For more info, see [the hosting guide](Hosting#choosing-a-hosting-strategy)
+Your key for the Ollama cloud API. This only needs to be set if you are using an Ollama cloud model. For more info, see [the hosting guide](hosting#choosing-a-hosting-strategy)
 
 - **Type:** `string`
 - **Default:** `(blank)`

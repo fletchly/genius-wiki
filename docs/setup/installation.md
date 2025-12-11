@@ -39,3 +39,7 @@ Check your server console for a message confirming the plugin has loaded success
 ```
 [Genius] Successfully enabled Genius vX.X.X!
 ```
+
+### 6. Configure hosting
+
+Once genius has been installed successfully, make sure to [choose a hosting strategy](hosting#choosing-a-hosting-strategy).
