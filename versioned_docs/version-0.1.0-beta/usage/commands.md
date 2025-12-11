@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Commands
 
 Genius plugin commands
@@ -33,12 +37,23 @@ Genius plugin commands
 
 ### `/genius clear`
 
-**Description:** Clear conversation context for all players.
+**Description:** Clear conversation context. Clears context for all players if no player is specified
 
 **Permission:** `genius.manage`
 
 **Usage:**
 
 ```minecraft
+/genius clear [player]
+```
+
+**Arguments:**
+
+- `[player]` - Player to clear conversation context for
+
+**Example:**
+
+```minecraft
+/genius clear fletchly
 /genius clear
 ```

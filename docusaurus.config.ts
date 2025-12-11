@@ -89,6 +89,7 @@ const config: Config = {
         {
           type: "docsVersionDropdown",
           versions: ["current", "0.1.0-beta"],
+          position: "right",
         },
         //{ to: "/blog", label: "Blog", position: "left" },
         {

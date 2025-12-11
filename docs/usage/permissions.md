@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Permissions
 
 All permissions available in the plugin.
