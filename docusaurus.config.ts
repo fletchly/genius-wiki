@@ -8,6 +8,7 @@ const config: Config = {
   title: "Genius Docs",
   tagline: "Documentation for the Genius plugin",
   favicon: "img/favicon.ico",
+  trailingSlash: false,
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

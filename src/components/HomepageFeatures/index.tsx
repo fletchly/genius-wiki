@@ -10,29 +10,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Easy to Use",
+    title: "Lightweight",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Genius was designed to be as lightweight and unobtrusive as possible.
+        The plugin will never send messages unprompted, and has nominal
+        performance impact on your server when not in use.
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Configurable",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Genius is highly configurable. From its system prompt, to response
+        parameters, to display name in chat, you have full control over how
+        Genius behaves.
       </>
     ),
   },
   {
-    title: "Powered by React",
+    title: "Powered by Ollama",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        At its core, Genius uses Ollama to generate responses. This puts
+        Ollama's extensive library of LLMs at your fingertips for use in-game.
       </>
     ),
   },
