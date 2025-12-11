@@ -86,6 +86,10 @@ const config: Config = {
           position: "left",
           label: "Docs",
         },
+        {
+          type: "docsVersionDropdown",
+          versions: ["current", "0.1.0-beta"],
+        },
         //{ to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/fletchly/genius",
