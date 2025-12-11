@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Installation
 
+Download and install Genius
+
 ## Prerequisites
 
 - A Minecraft server running Paper 1.21+
