@@ -33,13 +33,14 @@ Genius plugin commands
 /g What's the best level for mining diamonds?
 ```
 
-## Admin commands
-
 ### `/genius clear`
 
-**Description:** Clear conversation context. Clears context for all players if no player is specified
+**Description:** Clear conversation context. If no player/selector is given, the command will clear the conversation context for the player sending the command.
 
-**Permission:** `genius.manage`
+**Permissions:**
+
+- `genius.manage.clear.self` - Clear own conversation history
+- `genius.manage.clear.any` - Clear converation for any player
 
 **Usage:**
 
@@ -49,11 +50,24 @@ Genius plugin commands
 
 **Arguments:**
 
-- `[player]` - Player to clear conversation context for
+- `[player]` - Player/selector to clear conversation context for.
 
 **Example:**
 
 ```minecraft
 /genius clear fletchly
 /genius clear
+/genius clear @a
+```
+
+### `/genius info`
+
+**Description:** Get information on Genius. Displays the agent name, model, and (if executed by player) current context used
+
+**Permission:** `genius.manage.info`
+
+**Usage:**
+
+```minecraft
+/genius info
 ```
