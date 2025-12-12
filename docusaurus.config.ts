@@ -144,7 +144,7 @@ const config: Config = {
               href: "https://github.com/fletchly/genius",
             },
             {
-              label: "Buy Me A Coffee",
+              label: "Buy Me a Coffee",
               href: "https://buymeacoffee.com/fletchly",
             },
           ],
