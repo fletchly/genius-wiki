@@ -1,10 +1,10 @@
 ---
-sidebar_postition: 2
+sidebar_position: 1
 ---
 
-# Configuration
+# config.yml
 
-Configure the Genius plugin
+Global configuration options for Genius
 
 <details>
 
@@ -66,7 +66,7 @@ context:
 
 Properties for the agent's appearance and behavior
 
-### genius.agentName
+### `genius.agentName`
 
 The name for the Genius agent to use in chat when responding to messages
 
@@ -77,49 +77,49 @@ The name for the Genius agent to use in chat when responding to messages
 
 Ollama client configuration
 
-### ollama.baseUrl
+### `ollama.baseUrl`
 
-The base URL for the Ollama API. If using a cloud model, this should be set to `https://ollama.com/`. Defaults to the Ollama API's default listening location. For more info, see [the hosting guide](hosting.md#choosing-a-hosting-strategy)
+The base URL for the Ollama API. If using a cloud model, this should be set to `https://ollama.com/`. Defaults to the Ollama API's default listening location. For more info, see [the hosting guide](../hosting.md#choosing-a-hosting-strategy)
 
 - **Type:** `string`
 - **Default:** `http://localhost:11434/`
 
-### ollama.apiKey
+### `ollama.apiKey`
 
-Your key for the Ollama cloud API. This only needs to be set if you are using an Ollama cloud model. For more info, see [the hosting guide](hosting.md#choosing-a-hosting-strategy)
+Your key for the Ollama cloud API. This only needs to be set if you are using an Ollama cloud model. For more info, see [the hosting guide](../hosting.md#choosing-a-hosting-strategy)
 
 - **Type:** `string`
 - **Default:** `(blank)`
 
-### ollama.model
+### `ollama.model`
 
 The name of the model to use for response generation. If you are using Ollama cloud, the model _must_ be an [ollama cloud model](https://docs.ollama.com/cloud#cloud-models)
 
 - **Type:** `string`
 - **Default:** `deepseek-v3.1:671b`
 
-### ollama.temperature
+### `ollama.temperature`
 
 Controls how random or deterministic Genius's output is. Lower values make responses more predictable and precise, while higher values make them more creative and varied.
 
 - **Type:** `number`
 - **Default:** `0.5`
 
-### ollama.topK
+### `ollama.topK`
 
 Top-K sampling limits the model’s next-token choices to the K most likely options, filtering out all others. This reduces randomness while still allowing some creativity compared to always picking the single most probable token.
 
 - **Type:** `integer`
 - **Default:** `40`
 
-### ollama.topP
+### `ollama.topP`
 
 Top-P controls how many likely tokens the model considers when generating text. Lower values make output more focused and predictable, while higher values allow more randomness and creativity.
 
 - **Type:** `number`
 - **Default:** `0.85`
 
-### ollama.numPredict
+### `ollama.numPredict`
 
 The number of predictions (max output tokens) controls how much text the model is allowed to generate. A lower limit keeps responses short and concise, while a higher limit allows longer, more detailed answers.
 
@@ -130,7 +130,7 @@ The number of predictions (max output tokens) controls how much text the model i
 
 Conversation context configuration
 
-### context.maxPlayerMessages
+### `context.maxPlayerMessages`
 
 Maximum number of messages to store per player. A higher limit will allow players to continue conversations for longer, however this could cause performance impacts with high player counts.
 
