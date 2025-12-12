@@ -113,6 +113,10 @@ const config: Config = {
               label: "Setup",
               to: "/docs/category/setup",
             },
+            {
+              label: "Usage",
+              to: "/docs/category/usage",
+            },
           ],
         },
         {
