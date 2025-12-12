@@ -14,7 +14,9 @@ All permissions available in the plugin.
 
 ## Permissions
 
-| Permission      | Description           | Default |
-| --------------- | --------------------- | ------- |
-| `genius.ask`    | Ask Genius a question | `true`  |
-| `genius.manage` | Manage Genius         | `op`    |
+| Permission                 | Description                               | Default |
+| -------------------------- | ----------------------------------------- | ------- |
+| `genius.ask`               | Ask Genius a question                     | `true`  |
+| `genius.manage.info`       | Get info on Genius                        | `true`  |
+| `genius.manage.clear.self` | Clear own conversation history            | `true`  |
+| `genius.manage.clear.any`  | Clear conversation history for any player | `op`    |
