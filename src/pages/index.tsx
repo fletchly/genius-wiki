@@ -30,7 +30,7 @@ function HomepageHeader() {
   );
 }
 
-function DemoVideo() {
+function DemoVideo({ src }) {
   return (
     <section className="padding-vert--xl">
       <div className="container">
@@ -54,7 +54,7 @@ function DemoVideo() {
               }}
             >
               <iframe
-                src="https://www.youtube.com/embed/xHKZ-8uYC8w"
+                src={src}
                 title="Genius Demo"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
@@ -87,7 +87,7 @@ export default function Home(): ReactNode {
     >
       <HomepageHeader />
       <main>
-        <DemoVideo />
+        <DemoVideo src="https://www.youtube.com/embed/r3oZyzwNLYc" />
         <HomepageFeatures />
       </main>
     </Layout>
