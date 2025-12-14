@@ -14,22 +14,27 @@ Global configuration options for Genius
 # *****************************************
 # *         Genius Configuration          *
 # *****************************************
-# For reference, see https://github.com/fletchly/genius/wiki/Configuration
+# For reference, see https://fletchly.github.io/genius-wiki/docs/setup/configuration/config-yml
 
 # Properties for the agent's appearance and behavior
 genius:
-  # The name for the Genius agent to use in chat when responding to messages
+  # The name used when displaying messages from the agent in chat
   agentName: Genius
 
+  # The prefix used when displaying messages from the agent in chat
+  agentPrefix: 💡
+
+  # The prefix used when displaying messages from players in chat
+  playerPrefix: 👤
 # Ollama client configuration
 ollama:
   # The base URL for the Ollama API. If using a cloud model, this should be set to https://ollama.com/.
   # Defaults to the Ollama API's default listening location. For more info, see https://github.com/fletchly/genius/wiki/hosting
   baseUrl: http://localhost:11434/
 
-  # Your key for the Ollama cloud API. This only needs to be set if you are using an Ollama cloud model.
+  # Your key for the Ollama cloud API. This only needs to be changed if you are using an Ollama cloud model.
   # For more info, see https://github.com/fletchly/genius/wiki/hosting
-  apiKey: API_KEY
+  apiKey: local
 
   # The name of the model to use for response generation.
   # If you are using Ollama cloud, the model must be an ollama cloud model
@@ -51,13 +56,14 @@ ollama:
   # The number of predictions (max output tokens) controls how much text the model is allowed to generate.
   # A lower limit keeps responses short and concise, while a higher limit allows longer, more detailed answers.
   numPredict: 400
-
-# Conversation context configuration
+# Context database configuration
 context:
-  # Maximum number of messages to store per player
-  # A higher limit will allow players to continue conversations for longer,
-  # however this could cause performance impacts with high player counts.
+  # Maximum number of messages per player to store in the database at one time
+  # A higher limit will allow players to continue conversations for longer.
   maxPlayerMessages: 20
+
+# Don't change this
+configVersion: 1
 ```
 
 </details>
@@ -68,10 +74,24 @@ Properties for the agent's appearance and behavior
 
 ### `genius.agentName`
 
-The name for the Genius agent to use in chat when responding to messages
+The name used when displaying messages from the agent in chat
 
 - **Type:** `string`
 - **Default:** `Genius`
+
+### `genius.agentPrefix`
+
+The prefix used when displaying messages from the agent in chat
+
+- **Type:** `string`
+- **Default:** `💡`
+
+### `genius.playerPrefix`
+
+The prefix used when displaying messages from the agent in chat
+
+- **Type:** `string`
+- **Default:** `👤`
 
 ## ollama
 
