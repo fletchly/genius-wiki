@@ -28,9 +28,9 @@ Genius uses the [Ollama chat API](https://docs.ollama.com/api/introduction), giv
 2. **Configure the plugin:**
 
    - Open `plugins/Genius/config.yml` on your server
-   - Set [`ollama.baseUrl`](configuration/config-yml.md#ollamabaseurl) to `https://ollama.com/`
-   - Set [`ollama.apiKey`](configuration/config-yml.md#ollamaapikey) to your API key from step 1
-   - _(Optional)_ Change [`ollama.model`](configuration/config-yml.md#ollamamodel) to a different [cloud model](https://docs.ollama.com/cloud#cloud-models) (default is `deepseek-v3.1:671b`)
+   - Set [`ollama.baseUrl`](configuration/genius-conf.md#ollamabase-url) to `https://ollama.com/`
+   - Set [`ollama.apiKey`](configuration/genius-conf.md#ollamaapi-ey) to your API key from step 1
+   - _(Optional)_ Change [`ollama.model`](configuration/genius-conf.md#ollamamodel) to a different [cloud model](https://docs.ollama.com/cloud#cloud-models) (default is `deepseek-v3.1:671b`)
 
 3. **Restart your server** to apply the changes
 
@@ -44,7 +44,7 @@ Genius uses the [Ollama chat API](https://docs.ollama.com/api/introduction), giv
 2. **Configure the plugin:**
 
    - Open `plugins/Genius/config.yml` on your server
-   - Verify [`ollama.baseUrl`](configuration/config-yml.md#ollamabaseurl) matches your Ollama instance URL
-   - Set [`ollama.model`](configuration/config-yml.md#ollamamodel) to the model you pulled
+   - Verify [`ollama.baseUrl`](configuration/genius-conf.md#ollamabase-url) matches your Ollama instance URL
+   - Set [`ollama.model`](configuration/genius-conf.md#ollamamodel) to the model you pulled
 
 3. **Restart your server** to apply the changes
