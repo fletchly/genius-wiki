@@ -27,7 +27,7 @@ Genius uses the [Ollama chat API](https://docs.ollama.com/api/introduction), giv
 
 2. **Configure the plugin:**
 
-   - Open `plugins/Genius/config.yml` on your server
+   - Open `plugins/Genius/genius.conf` on your server
    - Set [`ollama.base-url`](configuration/genius-conf.md#ollamabase-url) to `https://ollama.com/`
    - Set [`ollama.api-key`](configuration/genius-conf.md#ollamaapi-key) to your API key from step 1
    - _(Optional)_ Change [`ollama.model`](configuration/genius-conf.md#ollamamodel) to a different [cloud model](https://docs.ollama.com/cloud#cloud-models) (default is `deepseek-v3.1:671b`)
@@ -43,7 +43,7 @@ Genius uses the [Ollama chat API](https://docs.ollama.com/api/introduction), giv
 
 2. **Configure the plugin:**
 
-   - Open `plugins/Genius/config.yml` on your server
+   - Open `plugins/Genius/genius.conf` on your server
    - Verify [`ollama.base-url`](configuration/genius-conf.md#ollamabase-url) matches your Ollama instance URL
    - Set [`ollama.model`](configuration/genius-conf.md#ollamamodel) to the model you pulled
 
