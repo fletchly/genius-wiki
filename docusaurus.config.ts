@@ -88,7 +88,7 @@ const config: Config = {
         },
         {
           type: "docsVersionDropdown",
-          versions: ["current", "0.2.1", "0.2.0-beta", "0.1.0-beta"],
+          versions: ["current", "0.3.0", "0.2.1", "0.2.0-beta", "0.1.0-beta"],
           position: "right",
         },
         //{ to: "/blog", label: "Blog", position: "left" },
